@@ -209,6 +209,7 @@ body {
   height: 100vh;
   background-color: #dde1e9;
   padding: 100px 20px;
+  margin-bottom: 150px;
 }
 .nosotros .fila {
   display: flex;
@@ -217,10 +218,9 @@ body {
 .nosotros .fila .col {
   width: 50%;
 }
-.nosotros .fila .col img {
-  width: 80%;
+.nosotros .fila img {
+  width: 100%;
   display: block;
-  margin: auto;
   margin-bottom: 50px;
 }
 .nosotros .fila .col .contenedor-titulo {
@@ -248,6 +248,7 @@ body {
 }
 .nosotros .fila .col .p-especial {
   font-weight: bold;
+  font-size: 1.5rem;
 }
 .nosotros hr {
   margin-bottom: 30px;
@@ -333,9 +334,9 @@ body {
 
 .galeria {
   color: #fff;
-  background: linear-gradient(rgba(0, 14, 41, 0.6), rgba(0, 7, 78, 0.7)), url(../img/fondo.png);
-  background-size: cover;
-  background-position: center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.5)), linear-gradient(-45deg, #000000, #00ff5e, #000000, #02fe0a, #59ff00);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
   padding: 100px 0;
 }
 .galeria a {
@@ -559,9 +560,9 @@ footer .info a {
 
 .servicios {
   color: #fff;
-  background: linear-gradient(rgba(0, 14, 41, 0.6), rgba(0, 7, 78, 0.7)), url(../img/fondo.png);
-  background-size: cover;
-  background-position: center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.5)), linear-gradient(-45deg, #000000, #00ff5e, #000000, #02fe0a, #59ff00);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
   padding: 100px 0;
 }
 .servicios a {
@@ -686,6 +687,9 @@ footer .info a {
   #next-galeria-html {
     right: 25px;
   }
+  .nosotros{
+    margin-bottom: 5px;
+  }
   .nosotros .fila-nosotros button {
     background-color: #09ff00;
     border: none;
@@ -700,12 +704,14 @@ footer .info a {
   .nosotros .fila {
     display: block;
     width: 100%;
-    margin: auto;
   }
   .nosotros .fila img {
-    max-width: 200px;
-    display: block;
+    width: 100%;
+    position: relative;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .inicio .info h2 {
     font-size: 50px;
