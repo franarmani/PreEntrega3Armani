@@ -335,8 +335,8 @@ body {
 .galeria {
   color: #fff;
   background: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.5)), linear-gradient(-45deg, #000000, #00ff5e, #000000, #02fe0a, #59ff00);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
   padding: 100px 0;
 }
 .galeria a {
