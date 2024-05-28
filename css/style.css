@@ -452,9 +452,9 @@ body {
 
 .contacto {
   color: #fff;
-  background: linear-gradient(rgba(0, 14, 41, 0.6), rgba(0, 7, 78, 0.7)), url(../img/fondo.png);
-  background-size: cover;
-  background-position: center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.5)), linear-gradient(-45deg, #000000, #00ff5e, #000000, #02fe0a, #59ff00);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
   padding: 130px 20px;
   margin: 0;
 }
@@ -820,6 +820,4 @@ footer .info a {
     margin-bottom: 10px;
   }
 }
-
-
 /*# sourceMappingURL=style.css.map */
