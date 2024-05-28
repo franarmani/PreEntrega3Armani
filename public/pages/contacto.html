@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../img/logo.png">
+    <title>TEAM ARMANI</title>
+</head>
+<body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            
+            <h1>TEAM<span class=" txtverde">ARMANI</span></h1>
+            <nav id="nav">
+                <a href="../index.html#inicio" onclick="seleccionar()">inicio</a>
+                <a href="../index.html#nosotros" onclick="seleccionar()">Entrena</a>
+
+                <div class="dropdown">
+                    <button class="dropbtn">TIENDA <i class="fa fa-caret-down"></i> </button>
+                    <div class="dropdown-content">
+                        <a href="./tienda-trending.html">Trending</a>
+                        <a href="./tienda-entrenamiento.html">Entrenamiento</a>
+                    </div>
+                </div>
+
+                <a href="../index.html#modalidades" onclick="seleccionar()">Modalidades</a>
+                <a href="./galeria.html" onclick="seleccionar()">Galería</a>
+                <a href="./equipamiento.html" onclick="seleccionar()">Equipamiento</a>
+                <a href="./contacto.html" onclick="seleccionar()">Contacto</a>
+            </nav>
+            <div class="redes">
+                <a href="https://web.facebook.com/KyudoMugen.TeamArmani/?_rdc=1&_rdr"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com/@teamarmani-kickboxing-boxe8255"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.instagram.com/teamarmani_kyudomugen/?hl=es"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>                
+        </header>
+    </div>
+
+
+<!-- SECCION CONTACTO -->
+<section class="contacto" id="contacto">
+    <div class="contenido-seccion">
+        <div class="contenedor-titulo">
+            <div class="numero">
+                06
+            </div>
+            <div class="info">
+                <span class="frase">LA MEJOR EXPERIENCIA</span>
+                <h2>CONTACTO</h2>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="col">
+                <input type="text" placeholder="Ingrese Email">
+            </div>
+            <div class="col">
+                <input type="text" placeholder="Ingrese Nombre">
+            </div>
+        </div>
+        <div class="mensaje">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Ingresa el Mensaje"></textarea>
+            <button>Enviar Mensaje</button>
+        </div>
+        <div class="fila-datos">
+            <div class="col">
+                <i class="fa-solid fa-location-dot"></i>
+                Colombia 255, Bahia blanca
+            </div>
+            <div class="col">
+                <i class="fa-regular fa-clock"></i>
+                Lunes a Viernes, 19 a 20hs
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<footer>
+    <div class="info">
+        <p>2024 - <span class=" txtverde">TEAM ARMANI</span> Todos los derechos reservados</p>
+        <div class="redes">
+            <a href="https://web.facebook.com/KyudoMugen.TeamArmani/?_rdc=1&_rdr">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/teamarmani_kyudomugen/?hl=es">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/@teamarmani-kickboxing-boxe8255">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<script src="../js/app.js"></script>
+</body>
+</html>
