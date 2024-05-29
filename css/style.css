@@ -160,7 +160,7 @@ a{
   text-align: center;
 }
 .inicio .info h2 {
-  font-size: 3rem;
+  font-size: 2.3rem;
   letter-spacing: 3px;
 }
 .inicio .info p {
@@ -247,7 +247,7 @@ a{
   color: #000000;
 }
 .nosotros .fila .col .contenedor-titulo .info h2 {
-  font-size: 3rem;
+  font-size: 2.3rem;
 }
 .nosotros .fila .col p {
   margin-bottom: 10px;
@@ -321,7 +321,7 @@ a{
   color: #000000;
 }
 .modalidades .fila .col .contenedor-titulo .info h2 {
-  font-size: 3rem;
+  font-size: 2.3rem;
 }
 .modalidades .fila .col p {
   margin-bottom: 10px;
@@ -377,7 +377,7 @@ a{
   color: #09ff00;
 }
 .galeria .contenedor-titulo .info h2 {
-  font-size: 3rem;
+  font-size: 2.3rem;
   color: #ffffff;
 }
 .galeria .contenedor-titulo .info p {
@@ -489,7 +489,7 @@ a{
   color: #09ff00;
 }
 .contacto .contenedor-titulo .info h2 {
-  font-size: 3rem;
+  font-size: 2.3rem;
 }
 .contacto .fila {
   display: flex;
@@ -620,7 +620,7 @@ footer .info a {
   color: #09ff00;
 }
 .servicios .contenedor-titulo .info h2 {
-  font-size: 3rem;
+  font-size: 2.3rem;
   color: #ffffff;
   text-align: left;
 }
