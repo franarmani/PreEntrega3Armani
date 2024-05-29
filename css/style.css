@@ -153,7 +153,7 @@ body {
   text-align: center;
 }
 .inicio .info h2 {
-  font-size: 2rem;
+  font-size: 4rem;
   letter-spacing: 3px;
 }
 .inicio .info p {
@@ -623,6 +623,12 @@ footer .info a {
   color: #ffffff;
 }
 
+@media only screen and (max-width: 740px) {
+  .inicio .info h2 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
+}
 @media only screen and (max-width: 950px) {
   .slider-galeria-html {
     width: 90%;
@@ -714,7 +720,7 @@ footer .info a {
     align-items: center;
   }
   .inicio .info h2 {
-    font-size: 50px;
+    font-size: 2.5rem;
     letter-spacing: 3px;
   }
   .inicio .opciones {
