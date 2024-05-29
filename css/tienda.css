@@ -160,7 +160,7 @@
   position: relative;
 }
 .inicio-equipamiento .info h2 {
-  font-size: 50px;
+  font-size: 2.3rem;
   letter-spacing: 3px;
 }
 .inicio-equipamiento .opciones {
@@ -215,7 +215,7 @@
   text-align: center;
 }
 .inicio-equipamiento .info h2 {
-  font-size: 4rem;
+  font-size: 2.3rem;
   letter-spacing: 3px;
 }
 .inicio-equipamiento .info p {
