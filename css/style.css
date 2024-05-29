@@ -73,6 +73,11 @@ body {
   color: #09ff00;
 }
 
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .txtverdesegundo {
   color: #000000;
   text-decoration: underline #09ff00;
